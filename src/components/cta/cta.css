@@ -1,0 +1,66 @@
+.cta {
+  display: flex;
+  background: var(--gradient-bar);
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10.7236px;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.cta .content p {
+  font-family: var(--font-famiy);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  color: #0e0e0e;
+}
+.cta .content h2 {
+  font-family: var(--font-famiy);
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 45px;
+
+  color: #000000;
+}
+.cta .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem;
+}
+.cta .btn button {
+  padding: 0.5rem 1rem;
+  min-width: 150px;
+  background: #000000;
+  border-radius: 40px;
+  color: #fff;
+  font-family: var(--font-famiy);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+@media screen and (max-width: 650px) {
+  .cta {
+    flex-direction: column;
+  }
+  .cta .btn {
+    margin: 2rem 0 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  .cta {
+    margin: 4rem 2rem;
+  }
+  .cta .btn button {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .cta .content h2 {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}

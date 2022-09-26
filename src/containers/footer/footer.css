@@ -1,0 +1,106 @@
+.footer {
+  background-color: var(--color-footer);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.footer .heading {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+.footer .heading h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+}
+.footer .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 1rem;
+  border: 1px solid #fff;
+  max-width: 200px;
+  text-align: center;
+  margin: 0 auto 10rem;
+}
+.footer .btn p {
+  font-family: var(--font-family);
+  font-size: 18px;
+  line-height: 21px;
+}
+.footer .all_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.footer .all_links .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.footer .all_links .logo img {
+  width: 118px;
+  height: 30px;
+  margin-bottom: 1rem;
+}
+.footer .all_links .logo p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+}
+.footer .all_links .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 300px;
+}
+.footer .all_links .links h4 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 2rem;
+}
+.footer .all_links .links p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 1.5rem;
+}
+.footer .copy {
+  text-align: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+.footer .copy p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14px;
+  font-feature-settings: "liga" off;
+}
+@media screen and (max-width: 850px) {
+  .footer .heading h1 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+  .footer .all_links .links h4 {
+    margin-top: 1.5rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .footer .heading h1 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+  .footer .btn p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
